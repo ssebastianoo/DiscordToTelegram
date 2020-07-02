@@ -102,4 +102,4 @@ for a in os.listdir("./cogs"):
     if a.endswith(".py"):
         bot.load_extension(f"cogs.{a[:-3]}")
     
-bot.run("NzA2NTE3MzcxOTI5NzU1NjQ4.Xq7ZmQ.vyG7o_0db2GAEt7UHr74lwii13g")
+bot.run("")
