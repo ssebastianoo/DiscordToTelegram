@@ -6,7 +6,7 @@ import os
 
 bot = commands.Bot(command_prefix = "dtt!", case_insensitive = True)
 bot.load_extension("jishaku")
-t_bot = telepot.Bot("1265121590:AAEV3NkbIl6hoARwH4ONUQ3_mkzCuqPJeqA")
+t_bot = telepot.Bot("")
 bot.remove_command("help")
 
 async def to_discord(bot, channel_id: int, message, username):
